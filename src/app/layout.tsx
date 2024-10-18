@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { ThemeProvider } from "@/lib/theme-provider";
+import { ThemeProvider } from "@/providers/theme-provider";
 import { cn } from "@/lib/utils";
 import "./globals.css";
 import { interFont, poppinsFont } from "@/lib/fonts";

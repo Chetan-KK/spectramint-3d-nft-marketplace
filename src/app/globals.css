@@ -67,3 +67,12 @@
     @apply bg-background text-foreground;
   }
 }
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* box-shadow: 0 0 0 1px red; */
+}

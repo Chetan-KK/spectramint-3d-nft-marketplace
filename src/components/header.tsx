@@ -8,7 +8,7 @@ type Props = {};
 
 const Header = (props: Props) => {
   return (
-    <header className="fixed top-0 left-0 w-full border-b border-border px-5 py-3 z-10">
+    <header className="sticky top-0 left-0 w-full border-b border-border px-5 py-3 z-30 backdrop-blur-md">
       <MaxWidthWrapper className="flex justify-between items-center">
         <Link href={"/"} className="uppercase font-bold text-xl">
           SpectraMint
