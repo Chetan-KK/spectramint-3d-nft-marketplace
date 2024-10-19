@@ -10,7 +10,7 @@ import {
   Center,
 } from "@react-three/drei";
 import * as THREE from "three";
-import EditorSidebar from "./editor-sidebar";
+import EditorSidebar from "./options";
 import { useModelViewSettingsStore } from "@/stores/modelViewSettingsStore";
 import { Bloom, EffectComposer, Vignette } from "@react-three/postprocessing";
 
@@ -83,6 +83,11 @@ const BlobView: React.FC = () => {
         <EffectComposer>
           <Bloom mipmapBlur intensity={0.5} />
         </EffectComposer>
+
+        {/** todos
+         *
+         * add environment for reflections
+         */}
 
         {/* lights */}
         <ambientLight intensity={0.2} />
